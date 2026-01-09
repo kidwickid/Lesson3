@@ -13,7 +13,7 @@ for(const Pin of code){
         continue
     }
 
-    if (Pin === "1234"){
+    if (Pin === myPin){
         console.log("Пин-код найден!", "Правильный пин-код " + Pin)
         break;  
         
